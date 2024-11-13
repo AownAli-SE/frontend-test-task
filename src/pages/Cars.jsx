@@ -97,7 +97,7 @@ export default function Categories() {
   };
 
   const handleDelete = async (categoryId) => {
-    const url = ENDPOINTS.READ_WRITE_CATEGORY_BY_ID.replace(":id", categoryId);
+    const url = ENDPOINTS.READ_WRITE_CARS_BY_ID.replace(":id", categoryId);
     const response = await networkCall(METHODS.DELETE, url, {}, true);
     if (response.status === 204) {
       const filteredCars = cars.filter((c) => c.key !== categoryId);
