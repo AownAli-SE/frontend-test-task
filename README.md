@@ -19,7 +19,7 @@ Node version >= 20.x.x
 NPM version >= 10.7.x
 
 Step 1: Install Node.js and NPM in your system.
-Step 2: Clone the repo from https://github.com/AownAli-SE/backend-test-task
+Step 2: Clone the repo from https://github.com/AownAli-SE/frontend-test-task
 Step 3: Install dependencies by executing command: npm install
 Step 6: Define all variables in .env file
 Step 4: Run project by executing command: npm run dev
