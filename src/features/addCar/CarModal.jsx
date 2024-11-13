@@ -134,6 +134,10 @@ export default function CreateCarModal({
                     required: true,
                     message: "Please input make!",
                   },
+                  {
+                    pattern: /^[A-Za-z\s]+$/,
+                    message: "Please enter a valid name",
+                  },
                 ]}
               >
                 <Input disabled={isView} />

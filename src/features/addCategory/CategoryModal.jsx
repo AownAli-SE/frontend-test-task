@@ -107,6 +107,10 @@ export default function CreateCategoryModal({
                 required: true,
                 message: "Please input category name!",
               },
+              {
+                pattern: /^[A-Za-z\s]+$/,
+                message: "Please enter a valid name",
+              },
             ]}
           >
             <Input disabled={isView} />
